@@ -1,15 +1,21 @@
 import React from "react";
-import Home from './Home/Home.jsx';
-import '/App.css';
+import './App.css';
+import NavBar from './../NavBar/NavBar.jsx'
+
+import Home from "./../Home/Home.jsx";
 
 
-const App = () => {
-    return(
-        <div className="app-container">
-            Horrb
-            <Home/>
-        </div>
-    );
+
+class App extends React.Component{
+    render()
+    {
+        return(
+            <div className="app-container">
+                <NavBar/>
+                <Home/>
+            </div>
+        );
+    };
 };
 
 export default App;

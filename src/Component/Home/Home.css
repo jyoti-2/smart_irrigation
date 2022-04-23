@@ -1,0 +1,41 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    font-family: "Limelight";
+    margin: 0;
+    flex-wrap: wrap;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.home-header{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.typewriter-container{
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+.home-right{
+    display: flex;
+    padding-top:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+.smart-img{
+    width: 100vh;
+    border-radius: 20px;
+}
