@@ -7,8 +7,8 @@ class Home extends React.Component{
     render()
     {
         return(
-            <div className="home-container">
-                <div data-aos = "fade-right" className="home-left">
+            <div id= "home" className="home-container">
+                <div data-aos="fade-down" className="home-left">
                     <div className="home-header">Irrigate smartly based on ...</div>
                     <div className="typewriter-container">
                         <Typewriter
@@ -21,7 +21,7 @@ class Home extends React.Component{
                     </div>
                 </div>
                 <div className="home-right">
-                    <div className="sub-header">
+                    <div data-aos="fade-right" className="sub-header">
                         <p> Managing water use by controlling irrigation in response to soil moisture,temperature and humidity changes to meet crop water demands.</p>
 
                         <p>
@@ -29,7 +29,7 @@ class Home extends React.Component{
                         </p>
                     </div>
                     <img
-                        data-aos="fade-up-left"
+                        data-aos="fade-right"
                         className="smart-img" src={smart} alt=""
                         />
                 </div>
