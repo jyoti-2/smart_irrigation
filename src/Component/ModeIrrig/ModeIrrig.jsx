@@ -1,6 +1,6 @@
 import React from "react";
 import './ModeIrrig.css';
-import {Button, ButtonGroup} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 
 class ModeIrrig extends React.Component{
@@ -21,9 +21,7 @@ class ModeIrrig extends React.Component{
 
    
     render(){
-    function showMessage() {
-        alert("This is done");
-        }
+    
     return(
         <div id='mode_irrigation'className="mode-irrigation-container">
             <h1 className="header">Irrigation planning using smart system</h1>
@@ -79,7 +77,7 @@ class ModeIrrig extends React.Component{
             </div>  
             
             <div className="button-group">                   
-                <Button variant="success" size="lg" className='btns' onClick="showMessage()" >Save & Schedule Irrigation</Button>{'   '}
+                <Button variant="success" size="lg" className='btns'>Save & Schedule Irrigation</Button>{'   '}
                 <Button variant="success" size="lg" active className='btns1' onClick="showMessage()">Start Irrigation</Button>{'   '}
                 <Button variant="success" size="lg" active onClick="showMessage()">Stop Irrigation</Button>
             </div>

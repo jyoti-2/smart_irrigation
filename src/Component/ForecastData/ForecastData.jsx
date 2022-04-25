@@ -20,12 +20,12 @@ class ForecastData extends React.Component{
         />
         <img
             className="mos"
-            src={humidity}
+            src={temperature}
             alt=""
         />
         <img
             className="tem"
-            src={temperature}
+            src={moisture}
             alt=""
         />
         </div>
