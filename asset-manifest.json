@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd27ed04.css",
-    "main.js": "/static/js/main.c6c8e00a.js",
-    "static/js/787.10ab0223.chunk.js": "/static/js/787.10ab0223.chunk.js",
-    "static/media/smart.png": "/static/media/smart.71775d361aaf3dd108c3.png",
-    "static/media/moisture.png": "/static/media/moisture.697fe9d0a1a75d0f3704.png",
-    "static/media/humidity.png": "/static/media/humidity.19e52d0340c4eb18fee5.png",
-    "static/media/temperature.png": "/static/media/temperature.cec8cd0a08c950dca605.png",
-    "index.html": "/index.html",
-    "main.bd27ed04.css.map": "/static/css/main.bd27ed04.css.map",
-    "main.c6c8e00a.js.map": "/static/js/main.c6c8e00a.js.map",
-    "787.10ab0223.chunk.js.map": "/static/js/787.10ab0223.chunk.js.map"
+    "main.css": "/smart_irrigation/static/css/main.d4d4b493.css",
+    "main.js": "/smart_irrigation/static/js/main.74237d13.js",
+    "static/js/787.10ab0223.chunk.js": "/smart_irrigation/static/js/787.10ab0223.chunk.js",
+    "static/media/smart.png": "/smart_irrigation/static/media/smart.71775d361aaf3dd108c3.png",
+    "static/media/moisture.png": "/smart_irrigation/static/media/moisture.697fe9d0a1a75d0f3704.png",
+    "static/media/humidity.png": "/smart_irrigation/static/media/humidity.19e52d0340c4eb18fee5.png",
+    "static/media/temperature.png": "/smart_irrigation/static/media/temperature.cec8cd0a08c950dca605.png",
+    "index.html": "/smart_irrigation/index.html",
+    "main.d4d4b493.css.map": "/smart_irrigation/static/css/main.d4d4b493.css.map",
+    "main.74237d13.js.map": "/smart_irrigation/static/js/main.74237d13.js.map",
+    "787.10ab0223.chunk.js.map": "/smart_irrigation/static/js/787.10ab0223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd27ed04.css",
-    "static/js/main.c6c8e00a.js"
+    "static/css/main.d4d4b493.css",
+    "static/js/main.74237d13.js"
   ]
 }
