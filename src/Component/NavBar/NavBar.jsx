@@ -8,17 +8,17 @@ class NavBar extends React.Component{
     {
         return(
             <div className="navbar-container">
-                
+        
                     <img
                         className="logo"
                         src={logo}
                         alt=""
                     />
-                    
+
                 <div className="nav-right">
                 <Navbar variant="light" >
                      <Nav className="me-auto">
-                        <Navbar.Brand href="/home" ><div className="nav-text"> Smart    Irrigation</div></Navbar.Brand>
+                        <Navbar.Brand href="/" ><div className="nav-text"> Smart Irrigation</div></Navbar.Brand>
                         <Nav.Link href="/forecast_data"><div className="nav-text">Forecast Data </div> </Nav.Link>
                         <Nav.Link href="/mode_irrigation"><div className="nav-text">Irrigate Crops</div> </Nav.Link>
                         </Nav>
