@@ -14,8 +14,8 @@ class App extends React.Component{
             <div className="app-container">
                 <NavBar/>
                 <Home/>
-                <ModeIrrig/>
-                <ForecastData/>
+                {/* <ModeIrrig/>
+                <ForecastData/> */}
                 <BrowserRouter>
                     <Routes>                        
                         <Route path='/mode_irrigation' element={ModeIrrig} />

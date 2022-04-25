@@ -5,7 +5,7 @@ class ForecastData extends React.Component{
     render(){
     return(
         <div id = 'forecast_data' className="foreacast-data-container">
-            Data
+        fhygujuygyt
         </div>
         );
     };

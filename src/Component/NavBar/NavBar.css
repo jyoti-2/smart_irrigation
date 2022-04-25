@@ -5,28 +5,24 @@
     padding:5px;
     margin: 0;
 }
-.nav-left{
-    padding: 5px;
+.nav-right{
+    padding-left: 500px;
 }
 .logo{
     width: 13vh;
     border-radius: 10px;
-}
-.navs{
-    justify-content: flex-end;
-    align-items: flex-end;    
-}
-.nav-right{
-   display: flex;
+    padding: 5px 0px 5px 5px;
 }
 .me-auto{
     display: flex;
+    align-items: flex-end; 
+    justify-content: flex-end;
+    padding-left: 100px;
 }
 .nav-text{
-    
     color: white;
     font-size: 25px;
     padding-left: 30px;
     padding-right: 30px;
-    
+    padding-top: 0px;    
 }

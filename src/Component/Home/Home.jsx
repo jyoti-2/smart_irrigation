@@ -8,6 +8,7 @@ class Home extends React.Component{
     {
         return(
             <div id= "home" className="home-container">
+                
                 <div data-aos="fade-down" className="home-left">
                     <div className="home-header">Irrigate smartly based on ...</div>
                     <div className="typewriter-container">
@@ -29,7 +30,7 @@ class Home extends React.Component{
                         </p>
                     </div>
                     <img
-                        data-aos="fade-right"
+                        data-aos="fade-left"
                         className="smart-img" src={smart} alt=""
                         />
                 </div>
