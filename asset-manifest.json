@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/smart_irrigation/static/css/main.cff71106.css",
-    "main.js": "/smart_irrigation/static/js/main.44b064e2.js",
+    "main.css": "/smart_irrigation/static/css/main.bd27ed04.css",
+    "main.js": "/smart_irrigation/static/js/main.010462aa.js",
     "static/js/787.10ab0223.chunk.js": "/smart_irrigation/static/js/787.10ab0223.chunk.js",
     "static/media/smart.png": "/smart_irrigation/static/media/smart.71775d361aaf3dd108c3.png",
     "static/media/moisture.png": "/smart_irrigation/static/media/moisture.697fe9d0a1a75d0f3704.png",
     "static/media/humidity.png": "/smart_irrigation/static/media/humidity.19e52d0340c4eb18fee5.png",
     "static/media/temperature.png": "/smart_irrigation/static/media/temperature.cec8cd0a08c950dca605.png",
     "index.html": "/smart_irrigation/index.html",
-    "main.cff71106.css.map": "/smart_irrigation/static/css/main.cff71106.css.map",
-    "main.44b064e2.js.map": "/smart_irrigation/static/js/main.44b064e2.js.map",
+    "main.bd27ed04.css.map": "/smart_irrigation/static/css/main.bd27ed04.css.map",
+    "main.010462aa.js.map": "/smart_irrigation/static/js/main.010462aa.js.map",
     "787.10ab0223.chunk.js.map": "/smart_irrigation/static/js/787.10ab0223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cff71106.css",
-    "static/js/main.44b064e2.js"
+    "static/css/main.bd27ed04.css",
+    "static/js/main.010462aa.js"
   ]
 }
