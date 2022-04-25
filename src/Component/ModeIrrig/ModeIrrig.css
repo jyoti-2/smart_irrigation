@@ -46,7 +46,9 @@
 .btns{
     margin-right: 10px;
 }
-
+.btns:active{
+    background-color: red !important;
+}
 .btns1{
     margin-right: 10px;
 }

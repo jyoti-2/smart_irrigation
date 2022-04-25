@@ -19,7 +19,11 @@ class ModeIrrig extends React.Component{
         event.preventDefault();
     }
 
+   
     render(){
+    function showMessage() {
+        alert("This is done");
+        }
     return(
         <div id='mode_irrigation'className="mode-irrigation-container">
             <h1 className="header">Irrigation planning using smart system</h1>
@@ -55,30 +59,29 @@ class ModeIrrig extends React.Component{
             <form onSubmit={this.handleSubmit}className="box-one" >
             <p className="heading"> Set Threshold Level to Start the Water Pump</p>
             <select onChange={this.handleChange}>
-                    <option default>1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option default>20</option>
+                    <option value="2">40</option>
+                    <option value="3">60</option>
+                    <option value="4">80</option>
+                    
             </select>
             </form>
 
             <form onSubmit={this.handleSubmit} className="box-one">
             <p className="heading">Set Threshold Level to Stop the Water Pump</p>
             <select onChange={this.handleChange}>
-                    <option default>1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option default>20</option>
+                    <option value="2">40</option>
+                    <option value="3">60</option>
+                    <option value="4">80</option>
             </select>
             </form>
             </div>  
             
             <div className="button-group">                   
-                <Button variant="success" size="lg" className='btns' >Save & Schedule Irrigation</Button>{'   '}
-                <Button variant="success" size="lg" active className='btns1'>Start Irrigation</Button>{'   '}
-                <Button variant="success" size="lg" active>Stop Irrigation</Button>
+                <Button variant="success" size="lg" className='btns' onClick="showMessage()" >Save & Schedule Irrigation</Button>{'   '}
+                <Button variant="success" size="lg" active className='btns1' onClick="showMessage()">Start Irrigation</Button>{'   '}
+                <Button variant="success" size="lg" active onClick="showMessage()">Stop Irrigation</Button>
             </div>
         </div>
         );
